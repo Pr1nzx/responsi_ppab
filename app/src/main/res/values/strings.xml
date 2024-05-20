@@ -1,0 +1,84 @@
+
+<resources>
+    <string name="app_name">responsi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+
+    <string name="profile_nim">L0122043</string>
+    <string name="profile_nama">Danang Aprianto</string>
+    <string name="profile_jurusan">INFORMATIKA / 2022</string>
+    <string name="profile_fakultas">FATISDA</string>
+    <string name="profile_univ">SebelasMaret University</string>
+    <string name="profile_email">danangaprianto@student.uns.ac.id</string>
+    <string name="profile_deskripsi">Tentang Saya</string>
+    <string name="profile_isi_deskripsi">Nama saya Danang Aprianto, nama panggilan saya Dapri. Saya berasal dari Gunungkidul, Saya suka Kucing</string>
+    <string name="instagram">Instagram</string>
+    <string name="share">Share</string>
+
+    <string name="nim">NIM</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="jurusan">Jurusan / Angkatan</string>
+
+    <string-array name="saga_names">
+        <item>East Blue Saga</item>
+        <item>Alabasta Saga</item>
+        <item>Sky Island Saga</item>
+        <item>Water 7 Saga</item>
+        <item>Thriller Bark Saga</item>
+        <item>Summit War Saga</item>
+        <item>Fish-Man Island Saga</item>
+        <item>Dressrosa Saga</item>
+        <item>Yonko Saga</item>
+        <item>Final Saga</item>
+    </string-array>
+
+    <string-array name="arc_names">
+        <item>Romance Dawn Arc, Orange Town Arc, Syrup Village Arc, Baratie Arc, Arlong Park Arc, Loguetown Arc</item>
+        <item>Reverse Mountain Arc, Whiskey Peak Arc, Little Garden Arc, Drum Island Arc, Alabasta Arc</item>
+        <item>Jaya Arc, Skypiea Arc</item>
+        <item>Long Ring Long Land Arc, Water 7 Arc, Enies Lobby Arc, Post-Enies Lobby Arc</item>
+        <item>Thriller Bark Arc</item>
+        <item>Sabaody Archipelago Arc, Amazon Lily Arc, Impel Down Arc, Marineford Arc, Post-War Arc</item>
+        <item>Return to Sabaody Arc, Fish-Man Island Arc</item>
+        <item>Punk Hazard Arc, Dressrosa Arc</item>
+        <item>Zou Arc, Whole Cake Island Arc, Reverie Arc, Wano Country Arc</item>
+        <item>Egghead Arc</item>
+    </string-array>
+
+
+    <string-array name="saga_descriptions">
+        <item>East Blue Saga memperkenalkan kita kepada Luffy dan anggota awal kru Topi Jerami saat mereka memulai petualangan mereka di East Blue.</item>
+        <item>Alabasta Saga menceritakan perjalanan Luffy dan krunya menuju Grand Line dan perjuangan mereka untuk menyelamatkan kerajaan Alabasta dari Baroque Works.</item>
+        <item>Sky Island Saga membawa kru Topi Jerami ke pulau di langit bernama Skypiea, di mana mereka menghadapi dewa Enel dan mencari harta karun kota emas Shandora.</item>
+        <item>Water 7 Saga berfokus pada pertempuran di Water 7 dan Enies Lobby untuk menyelamatkan Robin dan mendapatkan kapal baru, Thousand Sunny.</item>
+        <item>Thriller Bark Saga membawa kru ke kapal hantu besar bernama Thriller Bark, di mana mereka menghadapi Gecko Moria dan pasukan zombi.</item>
+        <item>Summit War Saga adalah saga besar yang mencakup pertarungan epik di Marineford dan perang untuk menyelamatkan Ace dari eksekusi.</item>
+        <item>Fish-Man Island Saga menggambarkan petualangan kru di Fish-Man Island setelah time-skip dua tahun.</item>
+        <item>Dressrosa Saga adalah tentang usaha Luffy untuk mengalahkan Doflamingo dan membebaskan Dressrosa dari tiraninya.</item>
+        <item>Yonko Saga mencakup petualangan melawan Yonko, termasuk Whole Cake Island Arc melawan Big Mom dan Wano Country Arc melawan Kaido.</item>
+        <item>Final Saga adalah saga terbaru yang sedang berlangsung, dimulai dengan Egghead Arc dan menuju akhir cerita One Piece.</item>
+    </string-array>
+
+    <string-array name="arc_images">
+        <item>@drawable/alabastasaga</item>
+        <item>@drawable/alabastasaga</item>
+        <item>@drawable/skyislandsaga</item>
+        <item>@drawable/water7saga</item>
+        <item>@drawable/thrillerbarksaga</item>
+        <item>@drawable/summitwarsaga</item>
+        <item>@drawable/fishmanislandsaga</item>
+        <item>@drawable/dressrosasaga</item>
+        <item>@drawable/yonkosaga</item>
+        <item>@drawable/finalsaga</item>
+    </string-array>
+
+
+
+
+    <string name="greeting">Aplikasi ini adalah aplikasi yang ditujukan kepada fans baru onepiece untuk mengenal saga dan arc yang sudah tayang</string>
+
+</resources>

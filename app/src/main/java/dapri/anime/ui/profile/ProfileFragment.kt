@@ -39,7 +39,7 @@ class ProfileFragment : Fragment() {
             shareIntent.type = "text/plain"
             shareIntent.putExtra(
                 Intent.EXTRA_TEXT,
-                "INI TUGAS DANANG L0122043 WEEK 6"
+                    "INI TUGAS DANANG L0122043 RESPONSI"
             )
             startActivity(Intent.createChooser(shareIntent, "Share Profile Dapri"))
         }

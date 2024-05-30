@@ -2,7 +2,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/third"
+    android:textAlignment="center"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -14,13 +17,13 @@
             android:id="@+id/detail_image"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="95dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="92dp"
             android:scaleType="centerCrop"
+            android:textColor="@color/textthird"
             app:cardCornerRadius="15dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.687"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,9 +31,10 @@
             android:id="@+id/detail_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:textColor="@color/black"
+            android:layout_marginTop="42dp"
+            android:textColor="@color/textthird"
             android:textSize="24sp"
+
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/detail_image"
             tools:layout_editor_absoluteX="16dp" />
@@ -40,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="21dp"
-            android:textColor="@color/black"
+            android:textColor="@color/textthird"
             android:textSize="16sp"
             app:layout_constraintTop_toBottomOf="@+id/detail_title"
             tools:layout_editor_absoluteX="16dp" />
@@ -50,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textColor="@color/black"
+            android:textColor="@color/textthird"
             android:textSize="16sp"
             app:layout_constraintTop_toBottomOf="@+id/detail_description"
             tools:layout_editor_absoluteX="16dp" />
@@ -60,12 +64,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:text="back to list"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="32dp"
 
-            app:layout_constraintVertical_bias="0.0"
-            tools:layout_editor_absoluteX="117dp" />
+            android:layout_marginEnd="120dp"
+            android:text="back to list"
+            android:textColor="@color/textthird"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_arc" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

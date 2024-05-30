@@ -17,25 +17,25 @@ class DashboardDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        // Find views by their IDs
+
         val detailTitle: TextView = findViewById(R.id.detail_title)
         val detailDescription: TextView = findViewById(R.id.detail_description)
         val detailImage: ImageView = findViewById(R.id.detail_image)
         val detailArc: TextView = findViewById(R.id.detail_arc)
 
-        // Get data from Intent
+
         val title = intent.getStringExtra(EXTRA_TITLE)
         val description = intent.getStringExtra(EXTRA_DESCRIPTION)
         val imageResId = intent.getIntExtra(EXTRA_IMAGE, -1)
         val arc = intent.getStringExtra(EXTRA_ARC)
 
-        // Set data to views
+
         detailTitle.text = title
         detailDescription.text = description
         detailImage.setImageResource(imageResId)
         detailArc.text = arc
 
-        // Mengatur onClick listener untuk tombol "Back"
+
         val backButton: Button = findViewById(R.id.detail_button)
         backButton.setOnClickListener {
             onBackPressed()

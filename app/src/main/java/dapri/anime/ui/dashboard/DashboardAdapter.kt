@@ -26,7 +26,7 @@ class DashboardAdapter(private val context: Context) :
         val sagaNameTextView: TextView = itemView.findViewById(R.id.list_saga_name)
         val sagaDescriptionTextView: TextView = itemView.findViewById(R.id.list_saga_description)
         val sagaArcsTextView: TextView = itemView.findViewById(R.id.list_saga_arc)
-        val sagaImageView: ImageView = itemView.findViewById(R.id.list_image_saga) // Tambah ImageView
+        val sagaImageView: ImageView = itemView.findViewById(R.id.list_image_saga)
     }
 
     inner class GridViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -34,7 +34,7 @@ class DashboardAdapter(private val context: Context) :
         val sagaNameTextView: TextView = itemView.findViewById(R.id.grid_saga_name)
         val sagaDescriptionTextView: TextView = itemView.findViewById(R.id.grid_saga_description)
         val sagaArcsTextView: TextView = itemView.findViewById(R.id.grid_saga_arc)
-        val sagaImageView: ImageView = itemView.findViewById(R.id.grid_image_saga) // Tambah ImageView
+        val sagaImageView: ImageView = itemView.findViewById(R.id.grid_image_saga)
     }
 
 
@@ -58,7 +58,7 @@ class DashboardAdapter(private val context: Context) :
             gridHolder.sagaArcsTextView.text = sagaArcs[position]
             gridHolder.sagaImageView.setImageResource(arcImages.getResourceId(position, -1))
             gridHolder.itemView.setOnClickListener {
-                // Buat Intent untuk membuka DetailActivity dengan data yang sesuai
+
                 val intent = DashboardDetailActivity.newIntent(context, sagaNames[position], sagaDescription[position], arcImages.getResourceId(position, -1), sagaArcs[position])
                 context.startActivity(intent)
             }
@@ -69,7 +69,7 @@ class DashboardAdapter(private val context: Context) :
             listHolder.sagaArcsTextView.text = sagaArcs[position]
             listHolder.sagaImageView.setImageResource(arcImages.getResourceId(position, -1))
             listHolder.itemView.setOnClickListener {
-                // Buat Intent untuk membuka DetailActivity dengan data yang sesuai
+
                 val intent = DashboardDetailActivity.newIntent(context, sagaNames[position], sagaDescription[position], arcImages.getResourceId(position, -1), sagaArcs[position])
                 context.startActivity(intent)
             }

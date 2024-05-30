@@ -64,7 +64,7 @@
     </string-array>
 
     <string-array name="arc_images">
-        <item>@drawable/alabastasaga</item>
+        <item>@drawable/eastbluesaga</item>
         <item>@drawable/alabastasaga</item>
         <item>@drawable/skyislandsaga</item>
         <item>@drawable/water7saga</item>

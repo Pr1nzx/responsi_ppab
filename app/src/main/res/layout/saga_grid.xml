@@ -8,77 +8,76 @@
     android:elevation="4dp"
     android:layout_gravity="center"
     app:cardCornerRadius="15dp"
-    app:cardBackgroundColor="#F3E8FD"
+    app:cardBackgroundColor="@color/textthird"
     app:cardElevation="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="213dp"
+        android:layout_height="161dp"
         android:padding="10dp">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/card_image_saga"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            app:cardCornerRadius="15dp"
+
+        <ImageView
+            android:id="@+id/grid_image_saga"
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="70dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <ImageView
-                android:id="@+id/grid_image_saga"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop" />
-
-        </androidx.cardview.widget.CardView>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/grid_saga_name"
             android:layout_width="243dp"
             android:layout_height="21dp"
-            android:layout_marginStart="70dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="72dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="66dp"
+            android:maxLines="1"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
+            android:textColor="@color/third"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card_image_saga" />
+            app:layout_constraintTop_toBottomOf="@+id/grid_image_saga" />
 
         <TextView
             android:id="@+id/grid_saga_description"
-            android:layout_width="277dp"
-            android:layout_height="36dp"
-            android:layout_marginStart="56dp"
-            android:layout_marginTop="6dp"
-            android:layout_marginEnd="52dp"
-            android:maxLines="1"
+            android:layout_width="267dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="57dp"
+            android:maxLines="4"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="14sp"
+            android:textColor="@color/third"
+            android:textSize="0sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/grid_saga_name" />
-
+            app:layout_constraintTop_toBottomOf="@+id/grid_saga_arc" />
 
         <TextView
-
             android:id="@+id/grid_saga_arc"
             android:layout_width="281dp"
             android:layout_height="18dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="44dp"
-            android:maxLines="1"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="49dp"
+            android:maxLines="4"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
+            android:textColor="@color/third"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/grid_saga_description" />
+            app:layout_constraintTop_toBottomOf="@+id/grid_saga_name" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
